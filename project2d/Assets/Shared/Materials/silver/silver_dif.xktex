@@ -1,0 +1,7 @@
+!Texture
+Id: a951d4e4-0110-4419-9f95-57738fad62ca
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Textures/silver/silver_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

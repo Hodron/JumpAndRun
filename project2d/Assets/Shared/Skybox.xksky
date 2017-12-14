@@ -1,0 +1,5 @@
+!SkyboxAsset
+Id: dd317be8-971f-4b13-9390-63eaeef39bb0
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+CubeMap: aa18abe6-d38f-4ffc-bed2-e15cd94ecea6:Skybox texture

@@ -1,0 +1,40 @@
+!Package
+Id: accf141f-d346-4102-8d75-f1e4f66c97fc
+SerializedVersion: {Assets: 0.0.4}
+Meta:
+    Name: project2d
+    Version: 1.0.0.0
+    Authors: []
+    Owners: []
+    RootNamespace: project2d
+    Dependencies:
+        -   Name: Xenko
+            Version: 2.1.1.1
+            RootAssets: []
+LocalDependencies: []
+Profiles:
+    -   Name: Shared
+        Platform: Shared
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Shared
+            -   Path: project2d.Game/Effects
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 2386172f-0c19-4139-a7cc-819403ed48b2
+                Location: project2d.Game/project2d.Game.csproj
+                Type: Library
+    -   Name: Windows
+        Platform: Windows
+        InheritProfiles: []
+        AssetFolders:
+            -   Path: Assets/Windows
+        OutputGroupDirectories: {}
+        ProjectReferences:
+            -   Id: 0224146f-8c48-441d-a318-34ba98d53757
+                Location: project2d.Windows/project2d.Windows.csproj
+                Type: Executable
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets: []

@@ -1,0 +1,29 @@
+!MaterialAsset
+Id: 431a519d-fea0-406f-9beb-730cdf6e5497
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Attributes:
+    MicroSurface: !MaterialGlossinessMapFeature
+        GlossinessMap: !ComputeTextureScalar
+            Texture: 86037de7-e30e-4dd4-aaa3-3ab5dd06ed56:Textures/gum01_gls
+            FallbackValue:
+                Value: 1.0
+            AddressModeU: Mirror
+            AddressModeV: Mirror
+            Scale: {X: 2.0, Y: 2.0}
+            Offset: {X: 0.25, Y: 0.37}
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeColor
+            Value: {R: 0.41, G: 0.408247858, B: 0.40649572, A: 1.0}
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Specular: !MaterialMetalnessMapFeature
+        MetalnessMap: !ComputeFloat
+            Value: 1.0
+    SpecularModel: !MaterialSpecularMicrofacetModelFeature
+        Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
+        Visibility: !MaterialSpecularMicrofacetVisibilitySmithSchlickGGX {}
+        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionGGX {}
+        Environment: !MaterialSpecularMicrofacetEnvironmentGGXLUT {}
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

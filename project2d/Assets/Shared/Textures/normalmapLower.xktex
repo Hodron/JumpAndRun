@@ -1,0 +1,7 @@
+!Texture
+Id: e7749311-84d8-447e-872b-c0e4cec04aaf
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Textures/normalmapLower.png
+Type: !NormalMapTextureType {}
+IsStreamable: false

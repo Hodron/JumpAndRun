@@ -1,0 +1,6 @@
+!Texture
+Id: 32616773-7f05-4fa1-bb44-54ba7b40737a
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Textures/rooftile/rooftile_nml.png
+Type: !NormalMapTextureType {}

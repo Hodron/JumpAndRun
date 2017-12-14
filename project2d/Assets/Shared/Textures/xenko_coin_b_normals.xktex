@@ -1,0 +1,6 @@
+!Texture
+Id: 6e1e921f-c83e-46ee-90f6-0684f6442aa0
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../Resources/Textures/xenko_coin_b_normals.png
+Type: !NormalMapTextureType {}

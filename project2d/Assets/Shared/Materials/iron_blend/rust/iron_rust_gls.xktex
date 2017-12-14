@@ -1,0 +1,7 @@
+!Texture
+Id: f75c80e3-3693-47f6-afc6-8091016cd182
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../../Resources/Textures/iron_blend/rust/iron_rust_gls.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

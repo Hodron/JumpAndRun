@@ -1,0 +1,7 @@
+!Texture
+Id: 61ea7e6a-8587-4f39-8aca-e9096ee5870f
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../../../Resources/Textures/brick/brick_gls.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

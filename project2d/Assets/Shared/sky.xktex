@@ -1,0 +1,7 @@
+!Texture
+Id: 66ddb92e-68c6-4aaa-aefa-9952bd4fc6b3
+SerializedVersion: {Xenko: 2.0.0.0}
+Tags: []
+Source: ../../Resources/sky.dds
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
